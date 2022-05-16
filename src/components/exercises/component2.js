@@ -1,4 +1,4 @@
-const Exercise2 = () => {
+const Component2 = () => {
   return(
     <div className="d-flex">
       <div className="container">
@@ -10,7 +10,7 @@ const Exercise2 = () => {
           <div className="flower-petal1 flower"></div>
           <div className="flower-petal2 flower"></div>
           <div className="flower-petal3 flower"></div>
-          <div className="hflower-base"></div>
+
         </div>
         <div className="etiquette">Exercițiu 2</div>
       </div>
@@ -23,7 +23,6 @@ const Exercise2 = () => {
           <div className="flower-petal1 flower"></div>
           <div className="flower-petal2 flower"></div>
           <div className="flower-petal3 flower"></div>
-          <div className="hflower-base"></div>
         </div>
         <div className="etiquette">Exercițiu 2</div>
       </div>
@@ -31,4 +30,4 @@ const Exercise2 = () => {
   )
 }
 
-export default Exercise2;
+export default Component2;
