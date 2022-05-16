@@ -1,15 +1,15 @@
-import Exercise1 from "./components/exercises/exercise1";
-import Exercise2 from "./components/exercises/exercise2";
-import Exercise3 from "./components/exercises/exercise3";
-import Exercise4 from "./components/exercises/exercise4";
+import Component1 from "./components/exercises/exercise1";
+import Component2 from "./components/exercises/exercise2";
+import Component3 from "./components/exercises/exercise3";
+import Component4 from "./components/exercises/exercise4";
 
 function App() {
   return (
     <div className="App">
-      <Exercise1/>
-      <Exercise2/>
-      <Exercise3/>
-      <Exercise4/>
+      <Component1/>
+      <Component2/>
+      <Component3/>
+      <Component4/>
     </div>
   );
 }
