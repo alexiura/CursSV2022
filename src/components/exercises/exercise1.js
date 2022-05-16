@@ -9,7 +9,6 @@ const Exercise1 = () => {
         <div className="flower-petal1 flower"></div>
         <div className="flower-petal2 flower"></div>
         <div className="flower-petal3 flower"></div>
-        <div className="hflower-base"></div>
       </div>
       <div className="etiquette">Exercițiu 1</div>
     </div>
