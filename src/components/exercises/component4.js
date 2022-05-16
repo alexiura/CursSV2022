@@ -1,4 +1,4 @@
-const Exercise4 = () => {
+const Component4 = () => {
   return (
     <div className="container">
       <div className="pot-top"></div>
@@ -9,11 +9,11 @@ const Exercise4 = () => {
         <div className="flower-petal1 flower"></div>
         <div className="flower-petal2 flower"></div>
         <div className="flower-petal3 flower"></div>
-        <div className="hflower-base"></div>
+
       </div>
       <div className="etiquette">Exercițiu 4</div>
     </div>
   )
 }
 
-export default Exercise4;
+export default Component4;
