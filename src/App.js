@@ -1,7 +1,7 @@
-import Component1 from "./components/exercises/exercise1";
-import Component2 from "./components/exercises/exercise2";
-import Component3 from "./components/exercises/exercise3";
-import Component4 from "./components/exercises/exercise4";
+import Component1 from "./components/exercises/component1";
+import Component2 from "./components/exercises/component2";
+import Component3 from "./components/exercises/component3";
+import Component4 from "./components/exercises/component4";
 
 function App() {
   return (
