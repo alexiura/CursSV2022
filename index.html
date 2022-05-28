@@ -1,46 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1 style="text-align: center">Are you a developer?</h1>
+        <div class="mrg_auto">
+            <button onclick="progressYesAnswer()">YES</button>
+            <button onclick="progressNoAnswer()">NO</button>
+            <button onclick="progressMaybeAnswer()">MAYBE</button>
+        </div>
+        
+        <div class='progressBarContainer'>
+            <div class="d-inline">
+                <div id="yesColor"></div>
+                <div id="noColor" ></div>
+                <div id="maybeColor"></div>
+            </div>
+        </div>
+    </div>
 
-<section class="design">
-  <div>
-    <h1>My animals</h1>
-  </div>
-  <div>
-    <table>
-      <tr>
-        <th>Cats</th>
-        <th>Dogs</th>
-      </tr>
-      <tr>
-        <td>
-          <p>Luna</p>
-          <img src="images/LUNA.jpg" class="dimension" alt="cat1">
-        </td>
-        <td>
-          <p>Lea</p>
-          <img src="images/LEA1.jpg" class="dimension" alt="dog1">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Acro</p>
-          <img src="images/ACRO.jpg" class="dimension" alt="cat2">
-        </td>
-        <td>
-          <p>Daisy</p>
-          <img src="images/DAISY.jpg" class="dimension" alt="dog2">
-        </td>
-      </tr>
-    </table>
-  </div>
-</section>
-
-<script src="main.js "></script>
+    <script src="main.js"></script>
 </body>
 </html>
