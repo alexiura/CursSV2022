@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center">Are you a developer?</h1>
+        <div class="mrg_auto">
+            <button onclick="progressYesAnswer()">YES</button>
+            <button onclick="progressNoAnswer()">NO</button>
+            <button onclick="progressMaybeAnswer()">MAYBE</button>
+        </div>
+        
+        <div class='progressBarContainer'>
+            <div class="d-inline">
+                <div id="yesColor"></div>
+                <div id="noColor" ></div>
+                <div id="maybeColor"></div>
+            </div>
+        </div>
+
+        <div id="description">
+            <div id="yesLegend"><span>Yes</span></div>
+            <div id="noLegend"><span>No</span></div>
+            <div id="maybeLegend"><span>Maybe</span></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
